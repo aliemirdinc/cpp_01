@@ -1,4 +1,4 @@
-NAME = zombie
+NAME = Zombie
 
 CXX = c++
 
@@ -24,6 +24,6 @@ re: fclean all
 go: re
 	@make clean
 	@clear
-	@./zombie
+	@./Zombie
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re go

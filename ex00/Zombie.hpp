@@ -12,7 +12,6 @@ public:
 	void announce( void );
 };
 
-// functions should be declared out of the class
 Zombie* newZombie( std::string name );
 void randomChump( std::string name );
 
